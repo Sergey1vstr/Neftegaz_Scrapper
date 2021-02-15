@@ -8,4 +8,9 @@ if __name__ == "__main__":
     input_inc = "input_data/test_schedule.inc"
     output_csv = "output_data/schedule.csv"
 
+<<<<<<< HEAD
     schedule_dataframe = scp.tr_schedule(keywords, parameters, input_file = input_inc, output_file = output_csv)
+=======
+    schedule_dataframe = scp.tr_schedule(keywords, parameters, input_file = input_inc, output_file = output_csv)
+    print("Пыщ пыщ ололо")
+>>>>>>> Trial commit through dialogue window
