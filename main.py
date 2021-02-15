@@ -10,4 +10,3 @@ if __name__ == "__main__":
 
     schedule_dataframe = scp.tr_schedule(keywords, parameters, input_file = input_inc, output_file = output_csv)
     print("Пыщ пыщ ололо")
->>>>>>> Trial commit through dialogue window
