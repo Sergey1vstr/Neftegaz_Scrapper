@@ -20,9 +20,8 @@ def clean_schedule(file_path):
             line = line.strip()
             new_list.append(line)
         new_list_to_string = "\n".join(new_list)
-    with open("handled_schedule.inc", "wt") as handled_schedule:
+    with open(r"output/handled_schedule.inc", "wt") as handled_schedule:
         handled_schedule.write(new_list_to_string)
-        print("Создан очищенный файл 'handled_schedule.inc'. Создан список строк из этого файла:")
     return new_list
 
 #---------------------------------------------------------------------------------------------------------------
