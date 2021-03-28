@@ -3,7 +3,9 @@ import numpy as np
 
 
 def giant_function(file_path):
-    line_clean = clean_schedule(file_path)
+    """Принимает на вход путь к сырому исходному inc.-файлу
+       Возвращает очищенные упорядоченные строки с параметрами перфорации"""
+    line_clean = sl.clean_schedule(file_path)
     count = len(line_clean)
 
     # ------------------------------------------------------------------------------------------------------------------
@@ -88,3 +90,7 @@ def giant_function(file_path):
 
     for i in range(len(final_result)):
         print(final_result[i])
+
+#----------------------------------------------------------------------------------------------------------------
+if __name__ = "__main__":
+    giant_function(input/test_schedule.inc)
