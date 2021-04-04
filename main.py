@@ -1,5 +1,6 @@
 from lib import schedule_lib as sl
 import numpy as np
+import re
 
 
 def giant_function(file_path):
@@ -92,5 +93,5 @@ def giant_function(file_path):
         print(final_result[i])
 
 #----------------------------------------------------------------------------------------------------------------
-if __name__ = "__main__":
-    giant_function(input/test_schedule.inc)
+if __name__ == "__main__":
+    giant_function("input/test_schedule.inc")
